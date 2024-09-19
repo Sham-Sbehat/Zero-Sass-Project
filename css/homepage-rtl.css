@@ -1,0 +1,11 @@
+@media(min-width:992px){.header .logo{float:right;text-align:right}}.header .logo .the-toggler{right:auto;left:15px}@media(min-width:992px){.header .navbar{float:right}}.header .navbar li{float:right}@media(max-width:767px){.header .navbar li{text-align:right}}@media(min-width:992px){.services .service-box{float:right}}@media(min-width:768px){.our-players .player-box{float:right}}@media(min-width:992px){.our-players .player-box{text-align:right}}.lorem-ipsum .lorem-box{float:right}.footer .gallary,.footer .info,.footer .contact{float:right}.footer .gallary .img-box img{float:right}@media(min-width:768px){.footer .gallary .img-box img{float:right}}@media(min-width:768px){.footer .gallary .img-box .text{float:right}}.footer .contact .copyright .text,.footer .contact .copyright .author{float:right;width:50%}.footer .contact .copyright .author{text-align:left}/*# sourceMappingURL=homepage-rtl.css.map */ight;
+  }
+}
+.footer .contact .copyright .text,
+.footer .contact .copyright .author {
+  float: right;
+  width: 50%;
+}
+.footer .contact .copyright .author {
+  text-align: left;
+}/*# sourceMappingURL=homepage-rtl.css.map */

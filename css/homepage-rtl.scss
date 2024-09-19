@@ -1,0 +1,90 @@
+@import 'sass/helpers/variabels';
+$float-left:right;
+$float-right:left;
+$text-right:left;
+$text-left:right;
+.header{
+    .logo{
+        @media #{$minMedium}{
+            float: $float-left;
+            text-align: $text-left;
+        }
+        .the-toggler{
+            right: auto;
+            left: 15px;
+
+        }
+    }
+    .navbar{
+        @media #{$minMedium}{
+            float: $float-left;
+        }
+        li{
+            float: $float-left;
+            @media #{$maxMobile}{
+                text-align: $text-left;
+            }
+        }
+    }
+}
+// start services
+.services{
+    .service-box{
+        @media #{$minMedium}{
+            float: $float-left;
+        }
+    }
+}
+// end services
+// start ourPlayers
+.our-players{
+    .player-box{
+        @media #{$minSmall}{
+            float: $float-left;
+        }
+        @media #{$minMedium}{
+            text-align: $text-left;
+        }
+    }
+}
+// end ourPlayers
+//  start lorem-ipsum
+.lorem-ipsum{
+    .lorem-box{
+        float: $float-left;
+    }
+}
+//  end lorem-ipsum
+// footer
+.footer{
+    .gallary ,.info,.contact{
+        float: $float-left;
+    }
+    .gallary{
+        .img-box{
+            img{
+                @media #{$minSmall}{
+                    float: $float-left;
+                }
+                float: $float-left;
+            }
+            .text{
+                @media #{$minSmall}{
+                    float: $float-left;
+                }
+            }
+        }
+    }
+    .contact{
+    .copyright{
+        .text,
+        .author{
+            float: $float-left;
+            width: 50%;
+        }
+        .author{
+            text-align: $text-right;
+        }
+    }
+    }
+}
